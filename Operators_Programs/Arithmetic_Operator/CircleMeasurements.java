@@ -17,6 +17,7 @@ public class CircleMeasurements {
         int r = sc.nextInt();
         System.out.println("Area of a circle : " + areaOfCircle(r));
         System.out.println("Circumference of a circle : " + circumferenceOfCircle(r));
+        sc.close();
     }
     
 }

@@ -18,5 +18,6 @@ public class AdditionSubstraction {
         int m = sc.nextInt();
         System.out.println("Addition of two numbers : " + add(n, m));
         System.out.println("Substraction of two numbers : " + sub(n, m));
+        sc.close();
     }
 }
