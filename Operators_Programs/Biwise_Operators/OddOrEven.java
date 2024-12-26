@@ -16,5 +16,6 @@ public class OddOrEven {
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
         checkOddEven(n);
+        sc.close();
     }
 }
