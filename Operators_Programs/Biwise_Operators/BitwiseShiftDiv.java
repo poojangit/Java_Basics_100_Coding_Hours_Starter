@@ -9,5 +9,6 @@ public class BitwiseShiftDiv {
         int n = sc.nextInt();
         int div = n >> 1;
         System.out.println("The result : " + div);
+        sc.close();
     }
 }
