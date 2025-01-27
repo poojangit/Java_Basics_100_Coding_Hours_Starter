@@ -3,7 +3,6 @@
 //! Ensure the Output clearly shows the Average Mark as well as the Grade and Remarks
 
 import java.util.Scanner;
-
 public class StudentsMarksReport {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

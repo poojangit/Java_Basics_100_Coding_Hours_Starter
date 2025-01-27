@@ -1,4 +1,4 @@
-// todo : Write a program SpringSeason that takes two int values month and day from the command line and prints “Its a Spring Season” otherwise prints “Not a Spring Season”. 
+// todo : Write a program SpringSeason that takes two int values month and day from the command line and prints Its a Spring Season otherwise prints Not a Spring Season.
 //! Hint => 
 //! Spring Season is from March 20 to June 20
 

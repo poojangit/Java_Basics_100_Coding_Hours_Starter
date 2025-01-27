@@ -19,6 +19,6 @@ public class PowerOfNumber {
         for(int i=1; i<=power; i++){
             result *= num;
         }
-        System.out.println(result);
+        System.out.println(num + " with Power of " + power + " is " +result);
     }
 }

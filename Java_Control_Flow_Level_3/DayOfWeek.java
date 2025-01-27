@@ -8,14 +8,6 @@
 
 public class DayOfWeek {
     public static void main(String[] args) {
-        // Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter a date: ");
-        // System.out.println("Enter a month: ");
-        // int month = sc.nextInt();
-        // System.out.println("Enter a day: ");
-        // int day = sc.nextInt();
-        // System.out.println("Enter a year: ");
-        // int year = sc.nextInt();
         if(args.length< 3){
             System.out.println("Provide month , day and year.");
             return;
