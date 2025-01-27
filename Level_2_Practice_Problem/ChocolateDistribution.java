@@ -17,7 +17,8 @@ public class ChocolateDistribution {
         int noOfChocolate = sc.nextInt();
         int noOfChocolateForEachChild = noOfChocolate/noOfStudents;
         int remainingChocolate = noOfChocolate%noOfStudents;
-        System.out.println("The number of chocolate each child will get is " + noOfChocolateForEachChild + " and thenumber of remaining chocolates are " + remainingChocolate);
+        System.out.println("The number of chocolate each child will get is " + noOfChocolateForEachChild +
+                " and thenumber of remaining chocolates are " + remainingChocolate);
         sc.close();
     }
 }

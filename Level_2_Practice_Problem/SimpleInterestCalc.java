@@ -16,7 +16,8 @@ public class SimpleInterestCalc {
         System.out.println("Enter the time taken");
         double time = sc.nextDouble();
         double simpleInterest = principal*rate*time/100;
-        System.out.println("The simple interest is " + simpleInterest + " for principal " + principal + " rate of interest " + rate + " and time " + time );
+        System.out.println("The simple interest is " + simpleInterest + " for principal " + principal +
+                " rate of interest " + rate + " and time " + time );
         sc.close();
     }
 }

@@ -16,6 +16,7 @@ public class FindTheTotalIncome {
         System.out.println("Enter your bonus: ");
         double bonus = sc.nextDouble();
         double totalIncomeSalary = salary + bonus;
-        System.out.println("The salary is INR " + salary + "bonus is INR " + bonus + " Hence Total Income is INR " + totalIncomeSalary);
+        System.out.println("The salary is INR " + salary + "bonus is INR " + bonus +
+                " Hence Total Income is INR " + totalIncomeSalary);
     }
 }
