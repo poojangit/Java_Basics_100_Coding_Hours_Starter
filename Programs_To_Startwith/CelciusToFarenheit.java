@@ -10,5 +10,6 @@ class CelciusToFarenheit {
         double celcius = sc.nextDouble();
         double fahrenheit = (celcius*9/5) + 32;
         System.out.println("The Fahrenheit value is " + fahrenheit);
+        sc.close();
     }
 }
