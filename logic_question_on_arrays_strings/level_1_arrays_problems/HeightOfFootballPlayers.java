@@ -1,4 +1,4 @@
-package Logic_Questions_On_Java.arrays;
+package logic_question_on_arrays_strings.level_1_arrays_problems;
 // Create a program to find the mean height of players present in a football team.
 // Hint => 
 // The formula to calculate the mean is: mean = sum of all elements / number of elements

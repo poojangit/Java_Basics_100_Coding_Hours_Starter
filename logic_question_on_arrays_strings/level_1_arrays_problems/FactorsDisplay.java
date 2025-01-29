@@ -1,4 +1,4 @@
-package Logic_Questions_On_Java.arrays;
+package logic_question_on_arrays_strings.level_1_arrays_problems;
 
 import java.util.Arrays;
 

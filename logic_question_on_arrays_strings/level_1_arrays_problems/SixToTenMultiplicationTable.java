@@ -1,4 +1,4 @@
-package Logic_Questions_On_Java.arrays;
+package logic_question_on_arrays_strings.level_1_arrays_problems;
 // Create a program to find the multiplication table of a number entered by the user from 6 to 9 and display the result
 // Hint => 
 // Take integer input and store it in the variable number as well as define an integer array to store the multiplication result in the variable multiplicationResult

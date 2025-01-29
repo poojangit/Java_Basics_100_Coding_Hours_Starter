@@ -1,4 +1,4 @@
-package Logic_Questions_On_Java.arrays;
+package logic_question_on_arrays_strings.level_1_arrays_problems;
 // Create a program to save odd and even numbers into odd and even arrays between 1 to the number entered by the user. Finally, print the odd and even numbers array
 // Hint => 
 // Get an integer input from the user, assign it to a variable number, and check for 	Number. If not a natural number then print an error and exit the program

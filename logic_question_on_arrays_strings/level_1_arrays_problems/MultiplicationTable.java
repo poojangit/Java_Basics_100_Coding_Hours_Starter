@@ -1,4 +1,4 @@
-package Logic_Questions_On_Java.arrays;
+package logic_question_on_arrays_strings.level_1_arrays_problems;
 // Create a program to print a multiplication table of a number.
 // Hint => 
 // Get an integer input and store it in the number variable. Also, define a integer array to store the results of multiplication from 1 to 10
