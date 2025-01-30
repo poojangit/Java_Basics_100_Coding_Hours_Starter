@@ -9,7 +9,6 @@ import java.util.Scanner;
 // Take input for marks of students in physics, chemistry, and maths. If the marks are negative, ask the user to enter positive values and decrement the index
 // Calculate the percentage and grade of the students based on the percentage
 // Display the marks, percentages, and grades of each student
-
 public class StudentMarksReport {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,11 +16,13 @@ public class StudentMarksReport {
         System.out.println();
         System.out.println("Enter number of students : ");
         int noOfStudents = sc.nextInt();
-       double[][] marks = new double[noOfStudents][3];
+        double[] physicsMarks = new double[noOfStudents];
+        double[] chemistryMarks = new double[noOfStudents];
+        double[] mathsMarks = new double[noOfStudents];
         double[] percentages = new double[noOfStudents];
         String[] grades = new String[noOfStudents];
-        String[] remarks = { 
-            "Level 4, above agency-normalized standards", 
+        String[] remarks = {
+            "Level 4, above agency-normalized standards",
             "Level 3, at agency-normalized standards",
             "Level 2, below, but approaching agency-normalized standards",
             "level 1, well below agency-normalized standards",
@@ -30,17 +31,27 @@ public class StudentMarksReport {
          };
         for (int i = 0; i < noOfStudents; i++) {
             System.out.println("Enter the marks of a student " + (i + 1));
-           String[] subjects = {"physics", "Chemistry", "Maths"};
-           for(int j=0 ; j< 3; j++){
             while (true) {
-                System.out.println(subjects[j] + " marks :");
-                marks[i][j] = sc.nextDouble();
-                if (marks[i][j] >= 0 && marks[i][j] <= 100)
+                System.out.println(" Pysics marks : ");
+                physicsMarks[i] = sc.nextDouble();
+                if (physicsMarks[i] >= 0 && physicsMarks[i] <= 100)
                     break;
                 System.out.println("Please enter a valid marks!");
             }
-           }
-           
+            while(true) {
+                System.out.println("Chemistry marks : ");
+                chemistryMarks[i] = sc.nextDouble();
+                if(chemistryMarks[i] >=0 && chemistryMarks[i] <= 100)
+                break;
+                System.out.println("Please enter a valid marks!");
+            }
+            while (true) {
+                System.out.println("Maths marks : ");
+                mathsMarks[i] = sc.nextDouble();
+                if(mathsMarks[i] >=0 && mathsMarks[i] <= 100)
+                break;
+                System.out.println("Please enter a valid marks! ");
+            }
             double totalMarks = physicsMarks[i] + chemistryMarks[i] + mathsMarks[i];
             percentages[i] = (totalMarks/300)*100;
             if (percentages[i] >= 80) {
@@ -62,13 +73,14 @@ public class StudentMarksReport {
         System.out.println("-----------Student's Marks Report ----------");
         for(int i=0 ; i<noOfStudents; i++){
             System.out.println("Student " + (i+1));
-            System.out.println("Physics : " + marks[i][0]);
-            System.out.println("Chemistry : " + marks[i][1]);
-            System.out.println("Maths : " + marks[i][2]);
+            System.out.println("Physics : " + physicsMarks[i]);
+            System.out.println("Chemistry : " + chemistryMarks[i]);
+            System.out.println("Maths : " + mathsMarks[i]);
             System.out.println("Percentage : " + percentages[i] + "%");
             System.out.println("Remarks : " + grades[i]);
             System.out.println("------------------");
         }
     }
+
 
 }
