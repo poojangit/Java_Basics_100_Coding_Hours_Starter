@@ -21,8 +21,7 @@ public class FindTheYoungestFriend {
             int heightOfFriends = sc.nextInt();
             height[i] = heightOfFriends;
         }
-        System.out.println("Enter the ages of three friends : ");
-       
+        System.out.println("Enter the ages of three friends : ");   
         for(int i=0; i<age.length; i++){
             System.out.println( friends[i] +"'s age");
             int ageOfFriends = sc.nextInt();

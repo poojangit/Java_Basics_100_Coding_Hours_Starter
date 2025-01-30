@@ -71,7 +71,6 @@ public class EmployeeBonus {
             System.out.println("TotalNewSalary : " + totalNewSalary);
             System.out.println();
         }
-
     }
 
 }
